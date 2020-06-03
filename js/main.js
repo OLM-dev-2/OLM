@@ -42,7 +42,7 @@ navText:['<i class="ti-angle-left"></i>','<i class="ti-angle-right"></i>'],
   nav:true,
 dots:false,
 autoplayHoverPause: true,
-autoplaySpeed: 800,
+autoplaySpeed: 200,
   responsive:{
       0:{
           items:1,
@@ -77,7 +77,7 @@ navText:['<i class="ti-angle-left"></i>','<i class="ti-angle-right"></i>'],
   nav:true,
 dots:false,
 autoplayHoverPause: true,
-autoplaySpeed: 800,
+autoplaySpeed: 200,
   responsive:{
       0:{
           items:1,
@@ -113,7 +113,7 @@ navText:['<i class="ti-angle-left"></i>','<i class="ti-angle-right"></i>'],
   nav:true,
 dots:false,
 autoplayHoverPause: true,
-autoplaySpeed: 800,
+autoplaySpeed: 200,
 
   responsive:{
       0:{
@@ -149,7 +149,7 @@ navText:['<i class="ti-angle-left"></i>','<i class="ti-angle-right"></i>'],
   nav:true,
 dots:true,
 autoplayHoverPause: true,
-autoplaySpeed: 800,
+autoplaySpeed: 200,
 // dotsData: true,
 center: false,
   responsive:{
@@ -186,7 +186,7 @@ navText:['<i class="ti-angle-left"></i>','<i class="ti-angle-right"></i>'],
   nav:true,
 dots:true,
 autoplayHoverPause: true,
-autoplaySpeed: 800,
+autoplaySpeed: 200,
 // dotsData: true,
 center: false,
   responsive:{
@@ -240,8 +240,8 @@ center: false,
 
   // counter 
   $('.counter').counterUp({
-    delay: 10,
-    time: 10000
+    delay: 1,
+    time: 1
   });
 
 /* magnificPopup img view */
@@ -301,7 +301,7 @@ autoplay:true,
   nav:false,
 dots:false,
 autoplayHoverPause: true,
-autoplaySpeed: 800,
+autoplaySpeed: 200,
   responsive:{
       0:{
           items:1,
