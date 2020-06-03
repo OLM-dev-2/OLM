@@ -1367,7 +1367,9 @@ h3 {
 
 /* line 1, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: url(../img/banner/banner.gif);
+  background-color: #663347;
+  
 }
 
 /* line 4, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
@@ -1383,9 +1385,9 @@ h3 {
 
 /* line 17, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider {
-  background-size: 100% 100%;
+  background-size: 56% 84%;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: bottom right;
 }
 
 @media (max-width: 767px) {
@@ -1770,6 +1772,7 @@ h3 {
   background-position: center center;
   padding: 140px 0;
 }
+
 
 @media (max-width: 767px) {
   /* line 35, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_counter.scss */
@@ -6199,7 +6202,6 @@ h6 {
     height:111px;
     margin-left:-13px;
     margin-top:-19px;
-    opacity: .6;
   }  
   #fetimg{
     width: 346px;
@@ -6227,7 +6229,6 @@ h6 {
   height:500px;
   margin-left:-43px;
   margin-top:-19px;
-  opacity: .6;
 }
 #fetimg{
   width:550px;
@@ -6250,7 +6251,6 @@ h6 {
     height:500px;
     margin-left:-43px;
     margin-top:-19px;
-    opacity: .6;
   }
   #fetimg{
     width:550px;
@@ -6280,6 +6280,7 @@ h6 {
 .box p{
   color: rgb(212, 212, 212);
 }
+
 
 @keyframes rotate {
   0% {
