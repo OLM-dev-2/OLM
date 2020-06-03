@@ -1,727 +1,487 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="zxx">
+
 <head>
-  <title>OLM</title>
-  <meta charset="utf-8">
-  <meta name="description" content="website">
-  <meta name="keywords" content="erp,crm,website,application,chatbot">
-  <meta name="author" content="OLM">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Cagliostro' rel='stylesheet'>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>OLM</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
-  <link rel="stylesheet" href="StyleSheet.css" />
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
 
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
-  <body>
-  <!--MainMenu Start-->
-  <nav class="navbar navbar-expand-md fixed-top" id="navbar">
-  <a href="#Home" class="navbar-brand" id="navbar-brand">     
-    <img src="img/olmfin.png" height="70px" alt="CoolBrand">
-  </a>
- 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-      <div class="navbar-nav">
-          
-      </div>
-      <div class="navbar-nav ml-auto" id="navbar-nav">
-        <a href="#Home" class="nav-item nav-link active">Home</a>
-        <a href="#sec1" class="nav-item nav-link">Services</a>
-        <a href="#section6" class="nav-item nav-link">Products</a>
-        <a href="#secttion2" class="nav-item nav-link">Features</a>
-        <a href="#section8" class="nav-item nav-link">Strategy</a>
-        <a href="#section9" class="nav-item nav-link">Technologies</a>
-        <a href="#section10" class="nav-item nav-link">Contact US</a>
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
 
-      </div>
-  </div>
-  </nav>
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid ">
+                    <div class="header_bottom_border">
+                        <div class="row align-items-center">
+                            <div class="col-xl-3 col-lg-2">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="img/logo.png" style="height: 100px;" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-7">
+                                <div class="main-menu  d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="#service">Services</a></li>
+                                            <li><a href="#solutions">Products</a></li>
+                                            <li><a href="#Features">Features</a></li>
+                                            <li><a href="#Strategy">Strategy</a></li>
+                                            <li><a href="#contact">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                                <div class="Appointment">
+                                    <div class="book_btn d-none d-lg-block">
+                                        <a href="#contact">Let’s Talk</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
 
-  <!--Carousel Wrapper Start-->
-  <div id="Home" class="carousel slide carousel-fade" data-ride="carousel" style=" background-color: black;">
-    <!--Indicators-->
-    <ol class="carousel-indicators">
-      <li data-target="#Home" data-slide-to="0" class="active"></li>
-      <li data-target="#Home" data-slide-to="1"></li>
-    </ol>    
-    <!--/.Indicators-->
-    <!--Slides-->
-    <div class="carousel-inner" role="listbox">
-      <!-- First slide -->
-      <div class="carousel-item active">    
-        <div class="view">      <!--Mask color-->          
-          <div class="embed-responsive embed-responsive-16by9" id="vd">        <!--Video source-->
-            <video class="embed-responsive-item"  autoplay loop muted>
-                <source src="img/200314 _Work Life_02_ 4k_057.mp4" type="video/mp4" />
-            </video>                      
-          </div>       
+                </div>
+            </div>
         </div>
-        <div class="carousel-caption" id="slide2">       <!--Caption-->
-          <div class="animate__animated  animate__zoomInUp" id="txt">
-            <h1 style="font-weight: lighter;">WE ARE OLM</h1>
-            <h1 class="h1-responsive font-weight-bold ">Custom Software Design & Development</h1>
-            <h3 class="wow fadeInLeft" data-wow-delay="0.3s">Let's Build Your Dream Together.</h3>
-          </div>
-        </div>  
-      </div>     
-      <!-- Second slide -->
-      <div class="carousel-item">   
-        <div class="view">      <!--Mask color-->
-          <div class="embed-responsive embed-responsive-16by9" id="vd">        <!--Video source-->
-            <video class="embed-responsive-item" autoplay loop muted>
-              <source src="img/bius2.mp4" type="video/mp4" />
-            </video>
-          </div>       
+    </header>
+    <!-- header-end -->
+
+    <!-- slider_area_start -->
+    <div class="slider_area" id="slider">
+        <div class="single_slider  d-flex align-items-center slider_bg_1">
+            <div class="container">
+                <div class="row align-items-center position-relative">                  
+                    <div class="col-lg-9">
+                        <div class="slider_text">
+                            <h3>WE ARE OLM<br></h3>
+                                <h3><span>Custom Software Design & Development
+                                Let's Build Your <br> Dream Together.</span></h3>                                
+                        </div>                       
+                    </div>
+                    <div class="my_img d-none d-lg-block">
+                        <img src="img/about/my_img.png" style="height: 388px; width: 600px;" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="carousel-caption" id="slide2">       <!--Caption-->
-          <div class="animate__animated  animate__zoomInUp" id="txt">
-            <h1> Create and Customize Your Own ChatBot </h1>
-            <h3>It has never been easier!</h3>
-          </div>
-        </div>  <!--Caption-->  
-      </div>    
-     
     </div>
-    <!--/.Slides-->
-    <!--Controls-->
-    <a class="carousel-control-prev" href="#Home" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#Home" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-    <!--/.Controls-->
-  </div>  
-  
-  <!-- Services Section -->
-  <section id="sec1">
-     <div class="container6">
-       <div class="row56">
-         <div class="col56">
-          <div class="cards">
-            <h1>Custom software development</h1>
-            <h3> for your company</h3><br>
-            <div class="card1 card1__one">
-              <div class="card1__bg"></div>
-              <img class="card1__img" src="img/wb.png" />
-              <div class="card1__text">
-                <p class="card1__title">Web Application</p>
-                <p class="card1__subtitle">We are committed to bringing tangible business results with fully packed, high-performing, and secure web solutions.</p>
-              </div>
-            </div>
-            <div class="card1 card1__two">
-              <div class="card1__bg"></div>
-              <img class="card1__img" src="img/mobappdev1.png" />
-              <div class="card1__text">
-                <p class="card1__title">Mobile Application</p>
-                <p class="card1__subtitle">Whether you go native, hybrid or cross-platform, we hold our mobile software application development to the latest.</p>
-              </div>
-            </div>
-            <div class="card1 card1__three">
-              <div class="card1__bg"></div>
-              <img class="card1__img" src="img/ux.png" />
-              <div class="card1__text">
-                <p class="card1__title">Web Sites</p>
-                <p class="card1__subtitle">We Design & build your own high-quality websites for promoting/showcasing your business</p>
-              </div>
-            </div>
-          </div>
-         </div>
-       </div>
-     </div>  
-  </section>  
+    <!-- slider_area_end -->
 
-   <!-- Solution we do Section -->
-  <section id="section6">    
-      <div class="container">
-        <h1>SOLUTIONS WE DELIVER </h1>
-        <div class="row">
-            <div class="col-xs-8 col-sm-4 col-md-6 col-lg-8"> 
-              <div class="container1">
-                <div class="card2">
-                <h3 class="title2"><img src="img/erp.webp" style="width: 40%;"></h3>
-                <div class="bar">
-                  <h3 class="title2" style="color: rgb(65, 122, 255);">ERP</h3>
-                  <div class="emptybar"></div>
-                  <div class="filledbar"></div>
+    <!-- service_area start  -->
+    <div class="service_area" id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title mb-50">
+                        <h3>Custom software development for your company</h3>
+                    </div>
                 </div>
-                <div class="circle">
-                  <p>Support and streamline your operations with scalable, well-integrated software that incorporates the latest tech and coordinates your other software.</p>
-                </div>
-                </div>
-                <div class="card2">
-                <h3 class="title2"><img src="img/CRM3.png" style="width: 45%;"></h3>
-                <div class="bar">
-                  <h3 class="title2" style="color: rgb(65, 122, 255);">CRM</h3>
-                  <div class="emptybar"></div>
-                  <div class="filledbar"></div>
-                </div>
-                <div class="circle">
-                  <p>A CRM solution helps you focus on your organization’s relationships with customers, service users, colleagues, or suppliers and providing support and additional services throughout the relationship.</p>
-                </div>
-                </div>
-                <div class="card2">
-                <h3 class="title2"><img src="img/ecom.png" style="width: 40%;"></h3>
-                <div class="bar">
-                  <h3 class="title2" style="color: rgb(65, 122, 255);">ECommerce</h3>
-                  <div class="emptybar"></div>
-                  <div class="filledbar"></div>
-                </div>
-                <div class="circle">
-                  <p>Selling your goods and services online . We aim to take the stress out of as much of it as we can by guiding you through the process and building a site that fits the way you work.</p>
-                </div>
-                </div>
-                <div class="card2">
-                <h5 class="title2"><img src="img/webdesign.png" style="width: 35%;"></h5>
-                <div class="bar">
-                  <h3 class="title2" style="color: rgb(65, 122, 255);">Web Design</h3>
-                  <div class="emptybar"></div>
-                  <div class="filledbar"></div>
-                </div>
-                <div class="circle">
-                  <p>We provide Static and Dynamic Website Design and Development. We also provide Content Management System(CMS).</p>
-                </div>
-                </div>        
-              </div>
             </div>
-            <div class="col-xs-4 col-sm-2 col-md-4 col-lg-4" style="margin-top: 10%;">
-              <div>
-                <img id="solimg" src="img/ic2.png">
-              </div>    
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/svg_icon/1.svg" alt="">
+                        </div>
+                        <h3>
+                                Mobile Application
+                        </h3>
+                        <p>Whether you go native, hybrid or cross-platform, we hold our mobile software application development to the latest.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/svg_icon/2.svg" alt="">
+                        </div>
+                        <h3>
+                                Web Application
+                        </h3>
+                        <p>We are committed to bringing tangible business results with fully packed, high-performing, and secure web solutions.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/svg_icon/3.svg" alt="">
+                        </div>
+                        <h3>
+                                Web Sites
+                        </h3>
+                        <p>We Design & build your own high-quality websites for promoting/showcasing your business</p>
+                    </div>
+                </div>
             </div>
         </div>
-      </div>  
-  </section>
+    </div>
+    <!-- service_area end  -->
 
-  <!-- rescue Section -->
-  <section id="section7" style="background-color: rgb(52, 41, 70);">
-    <div class="container" >
-        <div class="row">
-          <div class="col-md-8">
-            <div>
-              <img id="resimg" src="img/ic11.png" />
+    <!-- solutions start  -->
+    <div class="service_area" id="solutions">   
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title mb-50">
+                        <h3>SOLUTIONS WE DELIVER</h3> <br><br><br><br><br><br>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-md-4" style="margin-top: 10%;">
-            <h1 style=" color: rgb(85, 136, 255);">WE REJUVENATE YOUR PRODUCT </h1>
-            <h6 style="color: white;">IF your project does not work properly. We are here to rebuild to give your product new life and launch ASAP.</h6>
-          </div>
+        </div>     
+        <div class="container">            
+            <div class="row">
+                <div class="box col-lg-4 col-md-6"><br><br>
+                    <h3>ERP</h3>
+                    <span style="float: right;"><img src="img/solutions/erp.webp" height="100px"></span>
+                    <p>Support and streamline your operations with scalable, well-integrated software that incorporates the latest tech and coordinates your other software.</p>
+                </div>
+                <div class="box col-lg-4 col-md-6"><br><br>
+                    <h3>CRM</h3>
+                    <span style="float: right;"><img src="img/solutions/CRM3.png" height="100px"></span>
+                    <p>A CRM solution helps you focus on your organization’s relationships with customers, service users, colleagues, or suppliers and providing support and additional services throughout the relationship.</p>                
+                </div>
+                <div class="box col-lg-4 col-md-6"><br><br>
+                    <h3>ECommerce</h3>
+                    <span style="float: right;"><img src="img/solutions/ecom.png" height="100px"></span> 
+                    <p>Selling your goods and services online . We aim to take the stress out of as much of it as we can by guiding you through the process and building a site that fits the way you work.</p>                
+                </div>     
+            </div>         
         </div>
-    </div>  
-  </section>
+    </div>
+    <!-- solutions end  -->
 
- <!-- FEATURES -->
- <section  class="counter" style="background-color: rgb(52, 41, 70);">
-  <div id="secttion2" class="container">
-      <div class="row" >
-          
-          <div class="col-sm-6" id="fettxt">
-              <h1 style="color: rgb(245, 245, 245);">Features are
-                  <span style="font-style: oblique;"
-                  class="txt-rotate"
-                  data-period="2000"
-                  data-rotate='[ "...flexible", "...customizable", "...ready to use" ]'></span>
-              </h1>  
-              <h5 style="color: rgb(255, 255, 255);"> A partner that understands your software development requirements.<h5>
-          </div>    
-          <div class="col-sm-6">
-            <img id="fetimg" class="d-block" src="img/webdevbg.png"  alt="First">
-        </div>             
-      </div>
-  </div>
-</section>  
-
-  <!-- flowchart Section -->
-  <section id="section8">
-    <div class="container" style="background-image: url(img/devopshuman.png); background-repeat: no-repeat; background-position: center; opacity: 2;">
-        <div class="row" style="height: 700px;">          
-          <div class="col">
-            <h1> OUR PROCESS </h1>
-            <section class="ps-timeline-sec">
-              <div class="container">                
-                <ol class="ps-timeline">
-                              <li>
-                                  <div class="img-handler-top">
-                                  </div>
-                                  <div class="ps-bot">
-                                      <p>Requirement</p>
-                                  </div>
-                                  <span class="ps-sp-bot">01</span>
-                              </li>
-                              <li>
-                                  <div class="img-handler-bot">
-                                  </div>
-                                  <div class="ps-top">
-                                      <p>Signoff</p>
-                                  </div>
-                                  <span class="ps-sp-top">02</span>
-                              </li>
-                              <li>
-                                  <div class="img-handler-top">                
-                                  </div>
-                                  <div class="ps-bot">
-                                      <p>Design</p>
-                                  </div>
-                                  <span class="ps-sp-bot">03</span>
-                              </li>
-                              <li>
-                                  <div class="img-handler-bot">
-                                  </div>
-                                  <div class="ps-top">
-                                      <p>Blueprint</p>
-                                  </div>
-                                  <span class="ps-sp-top">04</span>
-                              </li>
-                              <li>
-                                <div class="img-handler-top">
-                                </div>
-                                <div class="ps-bot">
-                                    <p>Development</p>
-                                </div>
-                                <span class="ps-sp-bot">05</span>
-                            </li>
-                            <li>
-                                <div class="img-handler-bot">
-                                </div>
-                                <div class="ps-top">
-                                    <p>QA & testing</p>
-                                </div>
-                                <span class="ps-sp-top">06</span>
-                            </li>
-                            <li>
-                                <div class="img-handler-top">                
-                                </div>
-                                <div class="ps-bot">
-                                    <p>Release</p>
-                                </div>
-                                <span class="ps-sp-bot">07</span>
-                            </li>
-                            <li>
-                                <div class="img-handler-bot">
-                                </div>
-                                <div class="ps-top">
-                                    <p>Maintenance</p>
-                                </div>
-                                <span class="ps-sp-top">08</span>
-                            </li>
-                </ol>
-              </div>
-            </section>  
-          </div>          
+    <!-- rescue start  -->
+    <div class="gallery_area" id="Features">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 col-md-6">                   
+                    <img id="resimg" src="img/solutions/ic11.png" /> 
+                </div>
+                <div class="col-xl-4 col-md-6" style="margin-top: 10%;">
+                    <h1 style=" color: rgba(245, 134, 100, 0.685);">WE REJUVENATE YOUR PRODUCT </h1>
+                    <h4 style="color: white; font-weight: 100;">IF your project does not work properly. We are here to rebuild to give your product new life and launch ASAP.</h4>
+                </div>
+            </div>
         </div>
-    </div>  
-  </section>
+    </div>
+    <!-- rescue  end  -->
 
-  <!-- technologies Section -->
-  <section id="section9">
-      <div class="container">
-        <h1>TECHS WE WORK WITH</h1>
-        <div class="row">
-          <div class="col">
-            <div class="cardt">
-              <div class="face face1">
-                <div class="content">
-                  <img src="img/allswpk.png">
-                </div>
-              </div>
-              <div class="face face2">
-                <div class="content">
-                  <p>ALL TECHNOLOGIES</p>
-                </div>
-              </div>
-          </div>
-          </div>
-          <div class="col">
-            <div class="cardt">
-              <div class="face face1">
-                <div class="content">
-                  <img src="img/frontend.png">
-                </div>
-              </div>
-              <div class="face face2">
-                <div class="content">
-                  <p>FRONT-END TECHNOLOGIES</p>
-                </div>
-              </div>
-          </div>
-          </div>
-          <div class="col">
-            <div class="cardt">
-              <div class="face face1">
-                <div class="content">
-                  <img src="img/backend.png">
-                  
-                </div>
-              </div>
-              <div class="face face2">
-                <div class="content">
-                  <p>BACK-END TECHNOLOGIES</p>
-                </div>
-              </div>
-          </div>
-          </div>
-          <div class="col">
-            <div class="cardt">
-              <div class="face face1">
-                <div class="content">
-                  <img src="img/mobileap.png">
-                </div>
-              </div>
-              <div class="face face2">
-                <div class="content">
-                  <p>MOBILE TECHNOLOGIES</p>
-                </div>
-              </div>
-          </div>
-          </div>
-          <div class="col">
-            <div class="cardt">
-              <div class="face face1">
-                <div class="content">
-                  <img src="img/erp2.png">
-                  
-                </div>
-              </div>
-              <div class="face face2">
-                <div class="content">
-                  <p>ERP TECHNOLOGIES</p>
-                </div>
-              </div>
-          </div>
-          </div>
+    <!-- features start  -->
+    <div class="gallery_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6" id="fettxt">
+                    <h1 style="color: rgba(255, 255, 255, 0.685);">Features are
+                        <span style="font-style: oblique; color: rgba(245, 134, 100, 0.685);"
+                        class="txt-rotate"
+                        data-period="2000"
+                        data-rotate='[ "...flexible", "...customizable", "...ready to use" ]'></span>
+                    </h1>  
+                    <h4 style="color: rgb(255, 255, 255); font-weight: 100;"> A partner that understands your software development requirements.</h4>
+                </div>    
+                <div class="col-sm-6">
+                  <img id="fetimg" class="d-block" src="img/solutions/feaut.png"  alt="First">
+              </div>             
+            </div>
         </div>
-     </div>  
-  </section>
+    </div>
+    <!-- features  end  -->
 
-  <!-- contactus Section -->
-  <section id="section10">
-    <div class="container" style="height: 580px;">
-     
-      <div class="row">
-        <span class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="text-align: center;">
-          <h1>TELL US ABOUT YOUR PROJECT</h1>
-        </span>
-        <div class="col-xs-6 col-sm-4 col-md-6 col-lg-6">
-          <img id="cntimg" src="img/mail4.png">
-       </div>
-        <div class="col-xs-6 col-sm-4 col-md-6 col-lg-6 col-xs-offset-3">
-          <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
-            action="https://script.google.com/macros/s/AKfycbzOVlc7objQ3jOYOzbveIBtaY8JfhHoRtGldVSxoQ/exec">
-            <div class="form-elements">
-                  <div class="form-group">
-                      <label class="form-label" for="name">Your Name</label>
-                      <input type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1" required>
-                  </div>                            
-                  <div class="form-group">
-                      <label class="form-label" for="email">Your Email</label>
-                      <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2" required>
-                      <span class="email-invalid" style="display:none"> Must be a valid email address</span>
-                  </div>                            
-                  <div class="form-group">
-                      <label class="form-label" for="subject">Subject</label>
-                      <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3">
-                  </div>                            
-                  <div class="form-group">
-                      <label class="form-label" for="message">Message</label>
-                      <textarea rows="5" cols="50" name="message" class="form-control" id="message" placeholder="Message..." tabindex="4" required></textarea>                                 
-                  </div>
-                  <div class="text-center">
-                      <button type="submit" class="btn btn-start-order">Send Message</button>
+    <!-- /process start  -->
+    <div class="testimonial_area" id="Strategy">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="section_title">
+                            <h3>OUR PROCESS</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="testmonial_active owl-carousel">
+                            <div class="single_carousel">
+                                <div class="row">
+                                    <div class="col-xl-9 col-md-9">
+                                        <div class="single_testmonial">    
+                                            <p>Requirement Gathering</p>                                        
+                                            <div class="testmonial_author">
+                                                <div class="thumb">
+                                                    <img src="img/solutions/p1.png" id="solimg" alt=""> 
+                                                </div>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single_carousel">
+                                <div class="row">
+                                    <div class="col-xl-9 col-md-9">
+                                        <div class="single_testmonial">
+                                            <p>Design</p>
+                                            <div class="testmonial_author">
+                                                <div class="thumb">
+                                                    <img src="img/solutions/p2.png" id="solimg" alt=""> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single_carousel">
+                                <div class="row">
+                                    <div class="col-xl-9 col-md-9">
+                                        <div class="single_testmonial">
+                                            <p>Development</p>
+                                            <div class="testmonial_author">
+                                                <div class="thumb">
+                                                    <img src="img/solutions/p3.png" id="solimg" alt=""> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single_carousel">
+                                <div class="row">
+                                    <div class="col-xl-9 col-md-9">
+                                        <div class="single_testmonial">
+                                            <p>QA & testing</p>
+                                            <div class="testmonial_author">
+                                                <div class="thumb">
+                                                    <img src="img/solutions/p4.png" id="solimg" alt=""> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single_carousel">
+                                <div class="row">
+                                    <div class="col-xl-9 col-md-9">
+                                        <div class="single_testmonial">
+                                            <p>Release</p>
+                                            <div class="testmonial_author">
+                                                <div class="thumb">
+                                                    <img src="img/solutions/p5.png" id="solimg" alt=""> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single_carousel">
+                                <div class="row">
+                                    <div class="col-xl-9 col-md-9">
+                                        <div class="single_testmonial">
+                                            <p>Maintenance & Support</p>
+                                            <div class="testmonial_author">
+                                                <div class="thumb">
+                                                    <img src="img/solutions/p6.png" id="solimg" alt=""> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- /process  -->
+
+
+    <!-- footer start -->
+    <footer class="footer" id="contact">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <span class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="text-align: center;">
+                      <h1  style="color: ghostwhite;">TELL US ABOUT YOUR PROJECT</h1>
+                    </span>
+                    <div class="col-xs-6 col-sm-4 col-md-6 col-lg-6">
+                      <img id="cntimg" src="img/solutions/mail4.png">
+                   </div>
+                    <div class="col-xs-6 col-sm-4 col-md-6 col-lg-6 col-xs-offset-3">
+                      <form class="gform pure-form pure-form-stacked" method="POST" data-email="olmlazyminds@gmail.com"
+                        action="https://script.google.com/macros/s/AKfycbzOVlc7objQ3jOYOzbveIBtaY8JfhHoRtGldVSxoQ/exec">
+                        <div class="form-elements">
+                              <div class="form-group">
+                                  <label class="form-label" for="name">Your Name</label>
+                                  <input type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1" required>
+                              </div>                            
+                              <div class="form-group">
+                                  <label class="form-label" for="email">Your Email</label>
+                                  <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2" required>
+                                  <span class="email-invalid" style="display:none"> Must be a valid email address</span>
+                              </div>                            
+                              <div class="form-group">
+                                  <label class="form-label" for="subject">Subject</label>
+                                  <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3">
+                              </div>                            
+                              <div class="form-group">
+                                  <label class="form-label" for="message">Message</label>
+                                  <textarea rows="5" cols="50" name="message" class="form-control" id="message" placeholder="Message..." tabindex="4" required></textarea>                                 
+                              </div>
+                              <div class="text-center">
+                                  <button type="submit" class="btn btn-start-order">Send Message</button>
+                              </div>
+                        </div>
+                                 <!-- Customise the Thankyou Message People See when they submit the form: -->
+                        <div style="display:none; color: rgb(72, 81, 255);" class="thankyou_message">
+                              <h2>
+                                <em>Thanks</em> for contacting us!
+                                <br>We will get back to you soon!
+                              </h2>
+                        </div>
+                      </form>
+              
+                            <!-- Submit the Form to Google Using "AJAX" -->
+                              <script data-cfasync="false" type="text/javascript" src="/form-submission-handler.js"></script>
+                            <!-- END -->
+                    </div>
+                    
                   </div>
             </div>
-                     <!-- Customise the Thankyou Message People See when they submit the form: -->
-            <div style="display:none; color: rgb(72, 81, 255);" class="thankyou_message">
-                  <h2>
-                    <em>Thanks</em> for contacting us!
-                    <br>We will get back to you soon!
-                  </h2>
-            </div>
-          </form>
-  
-                <!-- Submit the Form to Google Using "AJAX" -->
-                  <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
-                <!-- END -->
         </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | OLM</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/ footer end -->
+
+    <!-- link that opens popup -->
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"> </script>
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/popper.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script> 
+    <!-- <script src="js/gijgo.min.js"></script> -->
+
+
+    <script src="js/main.js"></script>
+    <script> /*for Text typepriter style*/ 
+
+        var TxtRotate = function(el, toRotate, period) {
+              this.toRotate = toRotate;
+              this.el = el;
+              this.loopNum = 0;
+              this.period = parseInt(period, 10) || 10;
+              this.txt = '';
+              this.tick();
+              this.isDeleting = false;
+            };
         
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer id="sticky-footer" class="bg-dark text-white-50">
-    <div class="container text-center">
-      <small>Copyright &copy;<span style="color: rgb(61, 107, 245);">OLM.tk</span></small>
-    </div>
-  </footer>
-
-
-  <script>  /*for menu color change while scroll*/ 
-    window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-      if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-        document.getElementById("navbar").style.padding = "7px 7px";
-        document.getElementById("navbar-brand").style.fontSize = "20px";
-        document.getElementById("navbar").style.backgroundColor = "rgb(52, 41, 70)";
-        } 
-      else {
-        document.getElementById("navbar").style.padding = "10px 10px";
-        document.getElementById("navbar-brand").style.fontSize = "15px";
-        document.getElementById("navbar").style.backgroundColor = "rgb(0,0,0,0.5)";
-      }
-    }    
-  </script>
-
-  <script> /*for Text typepriter style*/ 
-
-var TxtRotate = function(el, toRotate, period) {
-      this.toRotate = toRotate;
-      this.el = el;
-      this.loopNum = 0;
-      this.period = parseInt(period, 10) || 10;
-      this.txt = '';
-      this.tick();
-      this.isDeleting = false;
-    };
-
-    TxtRotate.prototype.tick = function() {
-      var i = this.loopNum % this.toRotate.length;
-      var fullTxt = this.toRotate[i];
-      if (this.isDeleting) {
-        this.txt = fullTxt.substring(0, this.txt.length - 1);
-      } else {
-        this.txt = fullTxt.substring(0, this.txt.length + 1);
-      }
-      this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-      var that = this;
-      var delta = 150 - Math.random() * 100;
-      if (this.isDeleting) { delta /= 2; }
-      if (!this.isDeleting && this.txt === fullTxt) {
-        delta = this.period;
-        this.isDeleting = true;
-      } else if (this.isDeleting && this.txt === '') {
-        this.isDeleting = false;
-        this.loopNum++;
-        delta = 100;
-      }
-
-    setTimeout(function() {
-      that.tick();
-    },delta);
-  };
-
-  window.onload = function() {
-    var elements = document.getElementsByClassName('txt-rotate');
-    for (var i=0; i<elements.length; i++) {
-      var toRotate = elements[i].getAttribute('data-rotate');
-      var period = elements[i].getAttribute('data-period');
-      if (toRotate) {
-        new TxtRotate(elements[i], JSON.parse(toRotate), period);
-      }
-    }
-    // INJECT CSS
-    var css = document.createElement("style");
-    css.type = "text/css";
-    css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
-    document.body.appendChild(css);
-  };
-
-   //page refressed then scroll to top  
-   window.onbeforeunload = function () {
-          window.scrollTo(0,0);
+            TxtRotate.prototype.tick = function() {
+              var i = this.loopNum % this.toRotate.length;
+              var fullTxt = this.toRotate[i];
+              if (this.isDeleting) {
+                this.txt = fullTxt.substring(0, this.txt.length - 1);
+              } else {
+                this.txt = fullTxt.substring(0, this.txt.length + 1);
+              }
+              this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+              var that = this;
+              var delta = 150 - Math.random() * 100;
+              if (this.isDeleting) { delta /= 2; }
+              if (!this.isDeleting && this.txt === fullTxt) {
+                delta = this.period;
+                this.isDeleting = true;
+              } else if (this.isDeleting && this.txt === '') {
+                this.isDeleting = false;
+                this.loopNum++;
+                delta = 100;
+              }
+        
+            setTimeout(function() {
+              that.tick();
+            },delta);
           };
-  </script>
+        
+          window.onload = function() {
+            var elements = document.getElementsByClassName('txt-rotate');
+            for (var i=0; i<elements.length; i++) {
+              var toRotate = elements[i].getAttribute('data-rotate');
+              var period = elements[i].getAttribute('data-period');
+              if (toRotate) {
+                new TxtRotate(elements[i], JSON.parse(toRotate), period);
+              }
+            }
+            // INJECT CSS
+            var css = document.createElement("style");
+            css.type = "text/css";
+            css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+            document.body.appendChild(css);
+          };
+        
+           //page refressed then scroll to top  
+           window.onbeforeunload = function () {
+                  window.scrollTo(0,0);
+                  };
+    </script>
 
-  <script> /*for 3d rotate card type*/ 
-const cards = document.querySelector(".cards");
-const images = document.querySelectorAll(".card__img");
-const backgrounds = document.querySelectorAll(".card__bg");
-const range = 40;
-
-// const calcValue = (a, b) => (((a * 100) / b) * (range / 100) -(range / 2)).toFixed(1);
-const calcValue = (a, b) => (a/b*range-range/2).toFixed(1) // thanks @alice-mx
-
-let timeout;
-document.addEventListener('mousemove', ({x, y}) => {
-  if (timeout) {
-    window.cancelAnimationFrame(timeout);
-  }
-  	
-  timeout = window.requestAnimationFrame(() => {
-    const yValue = calcValue(y, window.innerHeight);
-    const xValue = calcValue(x, window.innerWidth);
-
-    cards.style.transform = `rotateX(${yValue}deg) rotateY(${xValue}deg)`;
-
-    [].forEach.call(images, (image) => {
-      image.style.transform = `translateX(${-xValue}px) translateY(${yValue}px)`;
-    });
-
-    [].forEach.call(backgrounds, (background) => {
-      background.style.backgroundPosition = `${xValue*.45}px ${-yValue*.45}px`;
-    })
-	})
-}, false);
-  </script>
-
-  <script> //for contact us
-$(document).ready(function() {
-	// Test for placeholder support
-    $.support.placeholder = (function(){
-        var i = document.createElement('input');
-        return 'placeholder' in i;
-    })();
-
-    // Hide labels by default if placeholders are supported
-    if($.support.placeholder) {
-        $('.form-label').each(function(){
-            $(this).addClass('js-hide-label');
-        });  
-
-        // Code for adding/removing classes here
-        $('.form-group').find('input, textarea').on('keyup blur focus', function(e){
-            
-            // Cache our selectors
-            var $this = $(this),
-                $label = $this.parent().find("label");
-					
-						switch(e.type) {
-							case 'keyup': {
-								 $label.toggleClass('js-hide-label', $this.val() == '');
-							} break;
-							case 'blur': {
-								if( $this.val() == '' ) {
-                    $label.addClass('js-hide-label');
-                } else {
-                    $label.removeClass('js-hide-label').addClass('js-unhighlight-label');
-                }
-							} break;
-							case 'focus': {
-								if( $this.val() !== '' ) {
-                    $label.removeClass('js-unhighlight-label');
-                }
-							} break;
-							default: break;
-						}
-        });
-    } 
-}); 
-  </script>
-
-  <script> //for flowchart 
-// Globals
-var prefixes         = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-var $container       = $('.container');
-var $timeline        = $('.timeline');
-var $timelineItem    = $('.timeline-item');
-var $timelineContent = $('.timeline-content');
-var $dropDown        = $('.dropdown');
-var $hasHovered      = true;
-var hideOnExit       = false;
-
-// mouseenter event handler
-$timelineItem.on('mouseenter', function(e) {
-  
-  var isSelected = $(this).hasClass('selected');
-  
-  if ( isSelected === false ) {
-  
-    var leftPos = $(this).position().left,
-        left    = leftPos - 88,
-        $that   = $(this);
-
-    $timelineItem.removeClass('selected');
-    $(this).addClass('selected');
-
-    if ( $hasHovered === false ) {
-      // Show Bounce
-
-        // Set Flag
-        $hasHovered = true;
-
-        // Show DD Bounce
-        showBounce(left);
-
-        // Show DD content Bounce
-        showContentBounce($that);
-
-    } else {
-      // Follow
-
-        // Change pos of DD to follow
-        dropDownFollow(left);
-
-        // Hide previous dd content
-        $timelineContent.removeClass('animated fadeIn bounceIn');
-
-        // Show hovered dd content
-        $that.find($timelineContent).addClass('animated fadeIn');
-    }
-  }
-  
-});
-
-// mouseleave event handler
-$timeline.on('mouseleave', function(e) {
-  
-  if (hideOnExit) {
-   
-    //   Set Flag
-    $hasHovered = false;
-
-    // Hide DD
-    hideDropDown();
-
-    // Hide DD content
-    $timelineContent.removeClass('animated fadeIn');
-    
-  }
-  
-});
-
-// Animation end event listener
-$dropDown.on(prefixes, function(e) {
-  
-  if ( e.originalEvent.animationName === 'fadeOut' ) {
-    $dropDown.removeAttr('style');
-  }
-  
-});
-
-/**
-* Private functions that do showing/hiding/animating
-*/
-function showContentBounce(that) {
-  $hasBounced = true;
-  that.find('.timeline-content').addClass('animated bounceIn');
-}
-
-function showBounce(pos) {
-  $dropDown.css('left', pos + 'px').removeClass('fadeOut').addClass('animated bounceIn');
-}
-
-function dropDownFollow(pos) {
-  $dropDown.css('left', pos + 'px');
-}
-
-function hideDropDown() {
-  $timelineItem.removeClass('selected');
-  $dropDown.removeClass('bounceIn').addClass('fadeOut');
-}
-  </script>
-  </body>
+</body>
 
 </html>
-
-
-
