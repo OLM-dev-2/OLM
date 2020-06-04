@@ -109,7 +109,7 @@ p {
 
 /* line 68, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 label {
-  color: #7e7e7e;
+  color: #a96969;
   cursor: pointer;
   font-size: 14px;
   font-weight: 400;
@@ -1367,8 +1367,8 @@ h3 {
 
 /* line 1, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.gif);
-  background-color: #663347;
+  background-image: url(../img/banner/banner.png);
+  background-color: #ffffff;
   
 }
 
@@ -1381,11 +1381,12 @@ h3 {
 .slider_area {
   position: relative;
   z-index: 0;
+  width: 1646px;
 }
 
 /* line 17, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider {
-  background-size: 56% 84%;
+  background-size: 50% 76%;
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -1443,20 +1444,21 @@ h3 {
 }
 
 /* line 44, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
+
 .slider_area .single_slider .slider_text h3 {
   font-family: "Roboto", sans-serif;
   font-size: 47px;
   text-transform: capitalize;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 90px;
-  color: #fff;
+  color: #2e9afe;
   /* margin-bottom: 55px;*/
 }
-
-/* line 52, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 span {
-  color: #DB9A64;
+  color: #ef2c4b;
 }
+/* line 52, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
+
 
 @media (max-width: 767px) {
   /* line 44, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
@@ -6196,7 +6198,6 @@ h6 {
   #resimg{
     width: 368px;
     height: 301px;
-    opacity: .5;
   }
   #cntimg{
     height:111px;
@@ -6206,7 +6207,6 @@ h6 {
   #fetimg{
     width: 346px;
     height: 323px;
-    opacity: .5;
   }
 
   #Strategy{
@@ -6223,7 +6223,6 @@ h6 {
 #resimg{
   width:700px;
   height:500px;
-  opacity: .5;
 }
 #cntimg{
   height:500px;
@@ -6233,7 +6232,6 @@ h6 {
 #fetimg{
   width:550px;
   height:400px;
-  opacity: .5;
 }
 #solimg{
   height:150px;
@@ -6245,7 +6243,6 @@ h6 {
   #resimg{
     width:700px;
     height:500px;
-    opacity: .5;
   }
   #cntimg{
     height:500px;
@@ -6255,7 +6252,6 @@ h6 {
   #fetimg{
     width:550px;
     height:400px;
-    opacity: .5;
   }
   #solimg{
     height:150px;
