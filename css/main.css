@@ -15,7 +15,7 @@ body {
     background: #fff;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 22px;
     color: #000;
     -webkit-user-select: none;
@@ -59,14 +59,19 @@ body {
     font-weight: 300;
   }
 
-  h1{
-    color: #686868;
-  }
+h1 {
+    /*color: #FFCF00;*/
+    background: linear-gradient(to left bottom, #745719, #8f6f1b, #a9881b, #c3a31b, #dcbf19, #dbbd17, #dbbc15, #daba13, #bf9a13, #a27c12, #846011, #66460e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:900;
+}
 
-  h2{
+h2 {
     font-size: 24px;
-    color: #686868;
-  }
+    color: #5b71a0;
+    FONT-WEIGHT: 500;
+}
 
   h3{
     font-size: 18px;
@@ -266,6 +271,7 @@ body {
 #header .navbar-brand{
   padding: 0;
   margin-left: 0;
+  margin-top:3px;
 }
 
 #header .navbar-brand h1{
@@ -278,7 +284,7 @@ body {
 }
 
 #header .navbar-nav.navbar-right >li a {
-  color: #000;
+  color: #00aeef;
   font-size: 16px;
   padding: 20px;
   text-transform: uppercase;
@@ -291,12 +297,12 @@ body {
 #header .navbar-nav.navbar-right li > a:hover,
 .navbar-inverse .navbar-nav > .open > a {
     background-color: inherit;
-    border: 0;
-    color: #ef7000;
+    border: 0;/*
+    color: #b37556;*/
 }
 
 #header .navbar-inverse .navbar-nav li a:hover {
-    color: #ef7000;
+    color: #b37556;
 }
 
 
@@ -549,7 +555,7 @@ ul.sub-menu {
 
 #home-slider .slide-text{
   position: absolute;
-  top: 50px;
+  top: 5px;
   left: 0;
   width: 450px;
 }
@@ -706,7 +712,7 @@ ul.sub-menu {
 
 .title {
   color: #404040;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .single-features {
@@ -796,11 +802,11 @@ ul.sub-menu {
 }
 
 .single-service img {
-  height: 85px;
+  height: 130px;
 }
 
 .tour-button {
-    background-image: url(../images/home/tour-icon2.png);
+    /*background-image: url(../images/home/tour-icon2.png);*/
     height: 100%;
     background-repeat: no-repeat;
     position: absolute;
@@ -2755,7 +2761,7 @@ span.stButton_gradient,
         margin-bottom: 0;
         padding: 0px 0 2px 0;
         z-index: 2;
-        background: #7eb9f0;
+        background: #fff;
         width: 100%;
     }
 }
@@ -2861,6 +2867,6 @@ span.stButton_gradient,
 @media only screen and (max-width: 768px){
     #header {
         padding-bottom: 1px !important;
-        padding-top: 0px !important;
+        padding-top: 0px !important;        
     }
 }
